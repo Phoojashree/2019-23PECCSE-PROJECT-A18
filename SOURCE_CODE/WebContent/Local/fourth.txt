@@ -1,0 +1,42 @@
+package imple;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import dbconn.Dbconn;
+
+import bean.Fileuploadbean;
+import bean.Userregbean;
+import inter.Inter;
+
+public class Imple implements Inter {
+	
+	Connection con;
+
+	@Override
+	public int ureg(Userregbean ur) {
+		// TODO Auto-generated method stub
+		
+		int reg=0;
+		 
+		 con=Dbconn.create();
+		 
+		 		try {
+		 			
+		 			PreparedStatement ps=con.prepareStatement("INSERT INTO emailspoof.userreg VALUES(id,?,?,?,?)");
+		 			ps.setString(1,ur.getName());
+		 				ps.setString(2,ur.getPhoeneno());
+		 				ps.setString(3,ur.getEmail());
+		 				ps.setString(4,ur.getPassword());
+		 				reg=ps.executeUpdate();
+		
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 		
+		return reg;
+		
+	}

@@ -1,0 +1,60 @@
+ 
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056 
+Volume: 08 Issue: 04 | Apr 2021 www.irjet.net p-ISSN: 2395-0072 
+6.  PROJECT FLOW DIAGRAM  
+ 
+Login authority is to administration section, to exam 
+section. and the faculty who are dealing with the student 
+performance in an institution. The Student Performance 
+Analysis system is the system online based for the 
+managing the record of result of each and every student. 
+If needed the system will generate the emails to their 
+respective parents for the improvement of the student 
+needed. 
+ 
+ 
+ 
+ 
+ 
+Fig - 7:  Context diagram for overall system 
+Fig - 8: User Case diagram for overall system 
+ 
+ 
+       Fig-7 illustrates the high-level view of the system. The 
+relation between user and system is shown in the figure. 7. IMPLEMENTATION 
+Student Performance Analysis is our system which is 
+      We developed a website to analyze and generate 
+accessed by administrator to give authorities to lower 
+report of students based on the curriculum that 
+user(faculties). Teacher uses the system for uploading 
+represents student’s academic performance. We have 
+student’s Performance. Student views their marks, 
+developed the system such that, it will automatically 
+Attendance, Assignment, Project, Notices, etc. 
+parse data onto the database from excel file, which will 
+Administrator who is higher authorities needs to know 
+in return reduce time consumption of analysis of data. 
+the overall report of student’s Performance. It is 
+For these we used HTML, CSS, PHP, my SQL and java 
+demonstrated in system by graphical representation of 
+script. After teacher logins into system, data is been 
+data in system. 
+fetched dynamically through the database. For here, 
+ 
+parsing is done using PHP Excel. It is an inbuilt library 
+      Fig-8 gives overall view of the system functionalities. It 
+for PHP to fetch data from excel files over or within 
+also shows the relationship between different modules of 
+network. We hope to accelerate the analysis by 
+the system. Viewing user case diagram use of the system 
+developing the analysis system. It provides assistance 
+can be clearly demonstrated. The three user of the system 
+to teachers and administrator to track record of each 
+accesses the system modules according to the privileges 
+student, subject and department by using various 
+provided to them by administrator. 
+techniques such sort. 
+ 
+ 
+ 
+© 2021, IRJET | Impact Factor value: 7.529 | ISO 9001:2008 Certified Journal | Page 3702
